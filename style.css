@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: linear-gradient(rgb(58, 70, 139),rgb(187, 20, 238));
+    height: 100vh;
+    width: 100%;
+    
+
+  }
+  .container{
+    text-align: center;
+    padding-top: 55px;
+    
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 23px;
+    border-radius: 22px;
+    margin: 12px;
+    text-align: center;
+    border: 2px solid violet
+}
+button{
+   font-size: 23px;
+background-image: linear-gradient(violet,indigo);
+width: 3em;
+height: 3em;
+border-radius: 50%;
+border: 2px solid violet;
+}
+button:hover{
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(blue,orange);
+    cursor: pointer;
+}
+
+h1{
+   color: rgb(40, 9, 68);
+   
+}
